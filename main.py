@@ -1,5 +1,6 @@
 import csv
 import numpy as np
+import matplotlib.pyplot as plt
 
 with open("titanic.csv", "r") as file:
   data = csv.reader(file, delimiter=",")
@@ -30,8 +31,8 @@ for index in range(0, len(fare)):
 #print(fare_not_survived)
 
 #print aggregated data for easier analysis
-print(f"The average fare of those who survived was: ${round(np.mean(fare_survived), 2)}")
-print(f"The average fare of those who did not survive was: ${round(np.mean(fare_not_survived), 2)}")
+#print(f"The average fare of those who survived was: ${round(np.mean(fare_survived), 2)}")
+#print(f"The average fare of those who did not survive was: ${round(np.mean(fare_not_survived), 2)}")
 
-print(f"The median fare of those who survived was: ${round(np.median(fare_survived), 2)}")
-print(f"The median fare of those who did not survive was: ${round(np.median(fare_not_survived), 2)}")
+#print(f"The median fare of those who survived was: ${round(np.median(fare_survived), 2)}")
+#print(f"The median fare of those who did not survive was: ${round(np.median(fare_not_survived), 2)}")
