@@ -17,6 +17,9 @@ fare = np.array(data[:,[7]], dtype=float).flatten()
 fare_survived = []
 fare_not_survived = []
 
-#ADD CODE: for loop and if/else statements
+#for loop and if/else statements
+#The length function inside range tells the loop when to begin and end the loops
+for index in range(0, len(fare)):
+  
 
 #ADD CODE: print lists
