@@ -26,5 +26,12 @@ for index in range(0, len(fare)):
     fare_not_survived.append(fare[index])
 
 #print lists
-print(fare_survived)
-print(fare_not_survived)
+#print(fare_survived)
+#print(fare_not_survived)
+
+#print aggregated data for easier analysis
+print(f"The average fare of those who survived was: ${round(np.mean(fare_survived), 2)}")
+print(f"The average fare of those who did not survive was: ${round(np.mean(fare_not_survived), 2)}")
+
+print(f"The median fare of those who survived was: ${round(np.median(fare_survived), 2)}")
+print(f"The median fare of those who did not survive was: ${round(np.median(fare_not_survived), 2)}")
