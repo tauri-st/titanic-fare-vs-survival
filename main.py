@@ -42,3 +42,9 @@ bins = range(0,240,15)
 
 plt.hist(fare_survived, bins, histtype="bar", color="red", alpha=0.5)
 plt.hist(fare_not_survived, bins, histtype="bar", color="green", alpha=0.5)
+
+#x-axis closely matches the bins
+plt.xticks(range(0,240,20))
+#y-axis matches the number of passengers
+plt.yticks(range(0,360,25))
+
