@@ -7,8 +7,8 @@ with open("titanic.csv", "r") as file:
   data = list(data)
   data = np.array(data)
   
-
-survived = np.array
+#create a numpy array with a slice for the survived column which is in index position zero and we want the data to be an integer
+survived = np.array(data[:,[0]], dtype=int)
 fare = np.array
 
 #empty lists to hold data from  the for loop
