@@ -48,3 +48,8 @@ plt.xticks(range(0,240,20))
 #y-axis matches the number of passengers
 plt.yticks(range(0,360,25))
 
+plt.xlabel("Fare ($)")
+plt.ylabel("Passengers")
+
+plt.title("Titanic Survival Rate vs Fare", fontsize=14)
+
