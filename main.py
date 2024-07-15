@@ -25,4 +25,6 @@ for index in range(0, len(fare)):
   else:
     fare_not_survived.append(fare[index])
 
-#ADD CODE: print lists
+#print lists
+print(fare_survived)
+print(fare_not_survived)
