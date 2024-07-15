@@ -20,6 +20,9 @@ fare_not_survived = []
 #for loop and if/else statements
 #The length function inside range tells the loop when to begin and end the loops
 for index in range(0, len(fare)):
-  
+  if survived[index] == 1:
+    fare_survived.append(fare[index])
+  else:
+    fare_not_survived.append(fare[index])
 
 #ADD CODE: print lists
