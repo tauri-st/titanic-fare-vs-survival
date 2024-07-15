@@ -39,3 +39,6 @@ for index in range(0, len(fare)):
 
 #The max fare is $240, and divide them by increments of 15
 bins = range(0,240,15)
+
+plt.hist(fare_survived, bins, histtype="bar", color="red", alpha=0.5)
+plt.hist(fare_not_survived, bins, histtype="bar", color="green", alpha=0.5)
