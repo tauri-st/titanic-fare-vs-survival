@@ -36,3 +36,6 @@ for index in range(0, len(fare)):
 
 #print(f"The median fare of those who survived was: ${round(np.median(fare_survived), 2)}")
 #print(f"The median fare of those who did not survive was: ${round(np.median(fare_not_survived), 2)}")
+
+#The max fare is $240, and divide them by increments of 15
+bins = range(0,240,15)
