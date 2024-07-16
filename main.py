@@ -54,5 +54,7 @@ plt.ylabel("Passengers")
 plt.title("Titanic Survival Rate vs Fare", fontsize=14)
 
 #Add a legend or color guide
-plt.gca().legend(("Did Not Survive","Survived"))
+plt.gca().legend(("Survived","Did Not Survive"))
+
+plt.savefig("titanic-survivors-by-fare.png")
 
